@@ -1,0 +1,23 @@
+/* 
+ */
+
+ .navbar{
+    background-color: aquamarine;
+    color: blue;
+    height: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+
+ }
+ .right{
+    background-color: green;
+    display: inline-block;
+    height: 60vh;
+    width: 50vh;
+ }
+ .left{
+    background-color: blue;
+    display: inline-block;
+    height: 60vh;  
+    width: 49vh;    
+ }  

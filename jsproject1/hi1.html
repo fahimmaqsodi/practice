@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+    DOM 
+    document object model
+    -->
+    <!-- document.getElementById  -->
+    <!-- document.getElementsByClassName -->
+    <!-- document.getElementsByTagName -->
+    <h1>Grocery List</h1>
+<form onsubmit="additem()">
+        <input type="text" id="item" placeholder="enter items">
+        <!-- <button onclick="additem()"> ADD ITEM </button> -->
+        <button type="submit"> ADD ITEM </button>
+    </form>
+
+    <ul id="grocerylist"> 
+    </ul>
+
+    <script>
+
+    function additem() { 
+        event.preventDefault();
+        const item = document.getElementById('item').value;
+        const li = document.createElement("li");
+        li.textContent = item;
+        document.getElementById('grocerylist').appendChild(li);
+        document.getElementById('item').value = '';
+         
+    }
+//
+&nbsp
+//
+</script>
+</body>
+</html>

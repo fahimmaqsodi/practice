@@ -1,0 +1,82 @@
+/* 
+ */
+ .top{
+background-color: rgba(0, 255, 255, 0.386);
+display: inline-block;
+ height: 70vh;
+ width: 100vh;
+
+ }
+ .botton{
+    background-color: white;
+    display: inline-block;
+    height: 70vh;
+    width: 100vh;
+ }
+ .top1{
+    background-color: rgba(0, 174, 255, 0.902);
+    display: inline-block;
+    height: 70vh;
+    width: 100vh;
+ }
+ .box1{
+    width: 150px !important;
+    height: 150px !important;
+    padding: 10px !important;
+    border: 4px solid gray !important;
+    margin: 10px !important;
+    background-color: white !important;
+    color: red !important;
+    font-size: 20px !important;
+    display: flex;
+ }
+ .box2{
+   width: 150px !important;
+   height: 150px !important;
+   padding: 10px !important;
+   border: 4px solid gray !important;
+   margin: 10px !important;
+   background-color: blue !important;
+   color: red !important;
+   font-size: 20px !important;
+   display: flex;
+ }
+ .box3{
+   width: 150px !important;
+   height: 150px !important;
+   padding: 10px !important;
+   border: 4px solid gray !important;
+   margin: 10px !important;
+   background-color: blueviolet !important;
+   color: red !important;
+   font-size: 20px !important;
+   display: flex;
+ }
+ .botton1{
+    background-color:gray;
+    display: inline-block;
+    height: 70vh;
+    width: 100vh;
+ }
+
+ .smallbox1{
+   height: 200px;
+   width: 200px;
+   background-color: brown;
+   display: inline-block;
+ }
+ .smallbox2{
+   height: 200px;
+   width: 200px;
+   background-color: grey;
+   display: inline-block;
+   margin-left: 20%;
+ }
+
+ .smallbox3{
+   height: 200px;
+   width: 200px;
+   background-color:red;
+   display: inline-block;
+   margin-left: 40%;
+ }
